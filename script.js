@@ -82,11 +82,11 @@
 				return Math.floor(Math.random()*x);
 			};
 
-			phrasesessai = ["ARTUR! CUIERE!", "J'apprécie les fruits au sirop!", "Ils sont fous ces romains!!!", "j'aime les nounours!!!", "Que la Force soit avec toi", ];
+			phrasesessai = ["ARTHUR! CUIERE!", "J'apprécie les fruits au sirop!", "Ils sont fous ces romains!!!", "j'aime les nounours!!!", "Que la Force soit avec toi", ];
 
-			phrasevictoire = ["Quand je suis content, je vomis.", "VOILÀ!          ", "Hasta la vista, baby !", "Moulti-pass            ", " des points des points des points des points...", "On ne peut pas tromper 1000 fois une personnes, mais.. euh non on ne peut pas tromper 1000 personnes une fois mais.. bref", "J'suis vraiment très content là!", "Grâce a la magie d'HappyRoteur"];
+			phrasevictoire = ["Quand je suis content, je vomis.", "VOILÀ!          ", "Hasta la vista, baby !", "Moulti-pass            ", " des points des points des points des points...", "On ne peut pas tromper 1000 fois une personnes, mais.. euh non on ne peut pas tromper 1000 personnes une fois mais.. bref", "J'suis vraiment très content là!", "Grâce a la magie d'HappyRoteur", "Heu j’vai rentrer chez moi et penser à mon avenir.", "La cuiere n'existe p'.. CUIERE ARTHUR CUIERE!!!", "ARTHUR PAS CHANGER ASSIETTE POUR FROMAGE"];
 
-			phrasedefeat = ["Reste cool, sac à merde.", "C'est pas donné a tout le monde de gagné...", "Ya des fois c’est toi qui cogne le bar, mais des fois, c'est le bar qui te cogne.", "Essai plutôt Alt+F4 ?          ", "Et non c'était 36 854,2... encore perdu"];
+			phrasedefeat = ["Reste cool, sac à merde.", "C'est pas donné a tout le monde de gagné...", "Ya des fois c’est toi qui cogne le bar, mais des fois, c'est le bar qui te cogne.", "Essai plutôt Alt+F4 ?          ", "Et non c'était 36 854,2... encore perdu", "Tu va rentrer chez toi et penser à ton avenir.", "Pourquoi Monsieur Anderson, pourquoi persister !?"];
 
 			function arrayRand(inp){
 				return inp[chiffreRand(inp.length)];
