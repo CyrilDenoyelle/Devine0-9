@@ -1,0 +1,15 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	padding: 5% 15%;
+}
+
+#app {
+	font-size: 5000%;
+}
+
+#chiffretap {
+	font-size: 1000%;
+}
