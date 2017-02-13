@@ -17,7 +17,7 @@
 
 			var intergain = setInterval(function(){
 				if(gain>Math.floor(points/2) && points>10){
-					gain = Math.floor(gain-gain*0.25);
+					gain = Math.floor(gain-gain*0.1);
 					localStorage.setItem("devinerandgain", gain);
 				}
 				if(!localStorage.getItem("devinerandgain" || localStorage.getItem("devinerandgain")<= 1)){
@@ -29,7 +29,7 @@
 				$('#gain').html(gain + " de gain a la prochaine victoire");
 
 
-			}, 1000);
+			}, 7000);
 
 			if(!localStorage.getItem("devinerandpoint") ){
 				points = 0;
