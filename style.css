@@ -1,7 +1,11 @@
+body{
+	background-color: grey;
+}
+
 .container {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
+	flex-direction: row-reverse;
+	justify-content: space-between;
 	align-content: center;
 	padding: 5% 15%;
 }
@@ -12,4 +16,8 @@
 
 #chiffretap {
 	font-size: 1000%;
+}
+
+#points {
+	font-size: 30px;
 }
